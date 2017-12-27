@@ -1,3 +1,2 @@
-- service: demo
-  command: docker ps
- 
+- service: adddocker
+  command: docker run busybox echo hello

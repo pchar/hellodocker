@@ -1,5 +1,3 @@
-demo:
-  build:
-    image: myapp
-    dockerfile_path: Dockerfile
-    add_docker: true
+adddocker:
+  image: docker:dind
+  add_docker: true
