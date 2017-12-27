@@ -1,3 +1,3 @@
 - service: demo
-  command: docker --version
+  command: docker ps
  
