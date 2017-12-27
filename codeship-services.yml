@@ -1,4 +1,3 @@
 codeship_example:
-  build: .
-  environment:
-    EXAMPLE_ENV_VAR: example-var
+  image: docker:dind
+  add_docker: true
