@@ -6,6 +6,10 @@ RUN curl -L -o s2i.tar.gz https://github.com/openshift/source-to-image/releases/
 RUN tar xvfz s2i.tar.gz
 RUN export PATH=$PWD:$PATH
 RUN git clone https://github.com/pchar/s2i-java.git
+RUN mkdir /app
+WORKDIR /app
+# copy over Gemfile and install bundle
+ADD build_with_docker.sh /app/build_with_docker.sh
 
 
 
