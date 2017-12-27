@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker
 
 RUN apk update
 RUN apk add go git make curl
