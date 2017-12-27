@@ -9,4 +9,3 @@ RUN git clone https://github.com/pchar/s2i-java.git
 
 
 
-CMD ["printenv"]
