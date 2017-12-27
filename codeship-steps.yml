@@ -1,5 +1,4 @@
 - service: codeship_example
   command: apk update
-- service: codeship_example
   command: apk search  go
  
