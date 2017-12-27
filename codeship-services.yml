@@ -1,3 +1,5 @@
-codeship_example:
-  image: docker:dind
+mybuilder:
+  build:
+    image: demodockerfile
+    dockerfile_path: Dockerfile
   add_docker: true

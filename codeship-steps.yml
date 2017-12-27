@@ -1,4 +1,3 @@
-- service: codeship_example
-  command: apk update
-  command: apk search  go
+- service: demodockerfile
+  command: docker --version
  
