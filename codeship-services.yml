@@ -1,5 +1,6 @@
 adddocker:
+
   build:
-  image: adddocker
-  dockerfile_path: Dockerfile
-  add_docker: true
+    image: adddocker
+    dockerfile_path: Dockerfile
+    add_docker: true
