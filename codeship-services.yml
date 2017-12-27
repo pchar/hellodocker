@@ -1,5 +1,5 @@
-mybuilder:
+demo:
   build:
-    image: demodockerfile
+    image: myapp
     dockerfile_path: Dockerfile
-  add_docker: true
+    add_docker: true
