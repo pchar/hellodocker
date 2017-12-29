@@ -1,2 +1,2 @@
 - service: app
-  command: docker ps
+  command: /app/build_with_docker.sh
