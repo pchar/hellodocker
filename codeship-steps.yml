@@ -1,2 +1,2 @@
-- service: adddocker
+- service: app
   command: docker ps

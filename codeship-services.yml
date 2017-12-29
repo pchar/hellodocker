@@ -1,6 +1,5 @@
-adddocker:
-
+app:
   build:
-    image: adddocker
-    dockerfile_path: Dockerfile
-    add_docker: true
+    image: image_name
+    dockerfile: Dockerfile.dms
+  add_docker: true
