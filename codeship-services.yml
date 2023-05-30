@@ -1,5 +1,0 @@
-app:
-  build:
-    image: image_name
-    dockerfile: Dockerfile.dms
-  add_docker: true

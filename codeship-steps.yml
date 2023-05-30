@@ -1,2 +1,0 @@
-- service: app
-  command: /app/build_with_docker.sh
