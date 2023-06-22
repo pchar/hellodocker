@@ -1,4 +1,4 @@
-FROM alpine
+FROM --platform=linux/arm64 alpine
 RUN apk add --no-cache perl
 COPY cowsay /usr/local/bin/cowsay
 RUN chmod +x  /usr/local/bin/cowsay
